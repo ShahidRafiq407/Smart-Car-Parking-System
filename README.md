@@ -343,7 +343,7 @@ Total Slots: 4 | Occupied: 0 | Remaining Slots: 4
 - Facebook: [@SMBRobotics](https://web.facebook.com/smbrobotics)
 - instagram: [@SMBRobotics](https://www.instagram.com/smbrobotics)
 - Reddit: [@SMBRobotics](https://www.reddit.com/user/SMB_ROBOTICS)
-- youtube: [@SMBRobotics](https://youtube.com/shahidrafiq407)
+- youtube: [@SMBRobotics](https://www.youtube.com/@Shahidrafiq407)
 
 Made with ❤️ by **SMB Robotics** — Building smart solutions with Arduino & Robotics.
 
