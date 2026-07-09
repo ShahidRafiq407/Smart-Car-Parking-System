@@ -1,6 +1,6 @@
 # 🚗 Smart Car Parking System
 
-### By [SMB Robotics](https://github.com/SMBRobotics)
+### By [SMB Robotics](https://github.com/shahidRafiq407)
 
 > An Arduino-based automated car parking system using **2 IR Sensors**, a **Servo Motor** (barrier gate), and a **16x2 I2C LCD Display** to manage vehicle entry/exit and track available parking slots in real-time.
 
@@ -19,22 +19,21 @@
 - [Libraries Required](#-libraries-required)
 - [Serial Monitor Output](#-serial-monitor-output)
 - [Customization](#-customization)
-- [Project Structure](#-project-structure)
-- [License](#-license)
+
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
-| 🚧 **Automatic Gate Control** | Servo-driven barrier opens/closes on vehicle detection |
-| 📡 **Dual IR Sensor Detection** | Entry & Exit detection using 2 separate IR sensors |
-| 📊 **Real-Time Slot Tracking** | Tracks occupied & available slots (configurable up to N slots) |
-| 🖥️ **LCD Status Display** | 16x2 I2C LCD shows live parking status |
-| 🔴 **Parking Full Alert** | Denies entry when all slots are occupied |
-| ⏱️ **Timeout Protection** | Auto-closes gate if vehicle doesn't cross within 4 seconds |
-| 📟 **Serial Monitor Logging** | Full debug output via Serial Monitor at 9600 baud |
+| **Automatic Gate Control** | Servo-driven barrier opens/closes on vehicle detection |
+| **Dual IR Sensor Detection** | Entry & Exit detection using 2 separate IR sensors |
+| **Real-Time Slot Tracking** | Tracks occupied & available slots (configurable up to N slots) |
+| **LCD Status Display** | 16x2 I2C LCD shows live parking status |
+| **Parking Full Alert** | Denies entry when all slots are occupied |
+| **Timeout Protection** | Auto-closes gate if vehicle doesn't cross within 4 seconds |
+| **Serial Monitor Logging** | Full debug output via Serial Monitor at 9600 baud |
 
 ---
 
@@ -250,7 +249,7 @@ flowchart LR
 
 ---
 
-## 🚀 Installation & Upload
+## Installation & Upload
 
 ### Prerequisites
 - [Arduino IDE](https://www.arduino.cc/en/software) (v1.8+ or v2.x)
@@ -260,7 +259,7 @@ flowchart LR
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/SMBRobotics/smart-car-parking-system.git
+   git clone https://github.com/shahidrafiq407/smart-car-parking-system.git
    cd smart-car-parking-system
    ```
 
@@ -287,7 +286,7 @@ flowchart LR
 |---------|------------------------|
 | `Servo.h` | ✅ Built-in (no install needed) |
 | `Wire.h` | ✅ Built-in (no install needed) |
-| `LiquidCrystal_I2C.h` | 📦 Install from Library Manager → Search "LiquidCrystal I2C" by Frank de Brabander |
+| `LiquidCrystal_I2C.h` | Install from Library Manager → Search "LiquidCrystal I2C" by Frank de Brabander |
 
 ### Installing LiquidCrystal_I2C
 1. Open Arduino IDE
@@ -297,7 +296,7 @@ flowchart LR
 
 ---
 
-## 📟 Serial Monitor Output
+## Serial Monitor Output
 
 ```
 --- SMART PARKING SYSTEM READY ---
@@ -319,7 +318,7 @@ Total Slots: 4 | Occupied: 0 | Remaining Slots: 4
 
 ---
 
-## 🔧 Customization
+## Customization
 
 | Parameter | Default | Location | Description |
 |-----------|---------|----------|-------------|
@@ -331,44 +330,20 @@ Total Slots: 4 | Occupied: 0 | Remaining Slots: 4
 | Gate open angle | `90°` | Lines 57, 118 | Servo angle when gate is open |
 | Timeout duration | `4000ms` | Lines 63, 124 | Time to wait for vehicle to cross |
 
----
 
-## 📁 Project Structure
-
-```
-smart-car-parking-system/
-│
-├── car_parking_system/
-│   └── car_parking_system.ino    # Main Arduino sketch
-│
-├── car parking system.jpg         # Project photo
-├── README.md                      # This file
-├── LICENSE                        # MIT License
-└── .gitignore                     # Git ignore rules
-```
 
 ---
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 👨‍💻 Author
 
 **SMB Robotics**
-- GitHub: [@SMBRobotics](https://github.com/SMBRobotics)
+- Linkedin: [@SMBRobotics](https://www.linkedin.com/in/shahid407)
+- Facebook: [@SMBRobotics](https://web.facebook.com/smbrobotics)
+- instagram: [@SMBRobotics](https://www.instagram.com/smbrobotics)
+- Reddit: [@SMBRobotics](https://www.reddit.com/user/SMB_ROBOTICS)
+- youtube: [@SMBRobotics](https://youtube.com/shahidrafiq407)
 
 Made with ❤️ by **SMB Robotics** — Building smart solutions with Arduino & Robotics.
 
